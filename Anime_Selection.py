@@ -1,6 +1,8 @@
 import requests
 import json
 import pandas as pd
+from jikanpy import Jikan
+jikan = Jikan()
 
 import numpy as np
 
@@ -40,8 +42,9 @@ anime_list = []
 
 # print(anime_list)
 
-# print(anime_df)
+# print(data)
 
+print(jikan.top(type='anime')
 # Checking to see if git is working
 
 # 2nd check to see if working
