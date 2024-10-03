@@ -43,3 +43,5 @@ anime_list = []
 # print(anime_df)
 
 # Checking to see if git is working
+
+# 2nd check to see if working
